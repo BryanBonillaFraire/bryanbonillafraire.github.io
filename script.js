@@ -32,7 +32,7 @@ var data = {
     "english": 
     {
       "contacto": "Contact",
-      "queHago": "What I do",
+      "queHago": "What I do?",
       "queHago2": "Recently graduated in Computer Systems Engineering focused on web development.",
       "tituloTema": "Custom Theme",
       "descripcionTema": "*The theme you choose will be saved<br>for your next visit",
@@ -52,12 +52,12 @@ var data = {
     "español": 
     {
         "contacto": "Contacto",
-        "queHago": "Que hago",
+        "queHago": "¿Que hago?",
         "queHago2": "Recien egresado en Ingenieria de sistemas computacionales enfocado al desarrollo web.",
         "tituloTema": "Tema Personalizado",
-        "descripcionTema": "*El tema que eligas se quedara guardado<br>para tu siguiente visita",
-        "masSobreMiTitulo": "Mas sobre mi",
-        "masSobreMiTexto":"Hoy en dia cuento con conocimientos de diseño, desarrollo y pruebas de software tambien conocimientos fundamentales de soporte informático y redes informáticas. Buscando utilizar una amplia educación con habilidades analíticas, técnicas y de programación para prosperar como desarrollador de software.",
+        "descripcionTema": "*El tema que elija se quedará guardado<br>para tu siguiente visita",
+        "masSobreMiTitulo": "Mas sobre mí...",
+        "masSobreMiTexto":"Hoy en dia cuento con conocimientos de diseño, desarrollo y pruebas de software también conocimientos fundamentales de soporte informático y redes informáticas. Buscando utilizar una amplia educación con habilidades analíticas, técnicas y de programación para prosperar como desarrollador de software.",
         "educacionTitulo":"Educacion",
         "educacionDescripcion":"<strong>Instituto Tecnológico de Ciudad Cuauhtemoc</strong><br>Ingeniería en Sistemas Computacionales, Febrero 2021<br><br><strong>Cursos Relevantes:</strong> Programación en general, Estructuras de Datos, Diseño Orientado a Objetos, Manejo de Bases de Datos, Seguridad de Información, Organización y Arquitectura de Computadoras, Redes Informáticas.",
         "habilidades":"Hablilidades",
@@ -65,7 +65,7 @@ var data = {
         "soporte":"Soporte de computo",
         "redes":"Redes Informaticas",
         "experienciaLab":"Experiencia laboral",
-        "experienciaPon":"<strong>PONDERCEL S.A DE C.V</strong><br>Practicante para Desarrollo web, Septiembre 2020 - Febrero 2021<br><br>Como practicante desarrolle aplicaciones web como full-stack determinando las necesidades del usuario y su departamento aparte que daba apoyo en momentos necesarios para soporte tecnico.",
+        "experienciaPon":"<strong>PONDERCEL S.A DE C.V</strong><br>Practicante para Desarrollo web, Septiembre 2020 - Febrero 2021<br><br>Como practicanté desarrolle aplicaciones web como full-stack determinando las necesidades del usuario y su departamento aparte de dar apoyo en momentos necesarios para soporte técnico.",
         "practicas":"Practicas que he hecho",
         "cv":"Descargar Curriculum Vitae",
     }
