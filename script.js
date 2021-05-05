@@ -48,6 +48,7 @@ var data = {
       "experienciaPon":"<strong>PONDERCEL S.A DE C.V</strong><br>Web Development Intern, September 2020 - February 2021<br><br>As an intern, I developed full-stack web applications, determining the needs of the user and his department apart of that i also provided second hand help at necessary times for technical support.",
       "practicas":"Proyects that I have done",
       "cv":"Download Curriculum Vitae",
+      "experienciaDZ":"<strong>DataZone</strong><br>Technical Analyst 1, April 2021 - Present<br><br>I offer technical support to Autozone stores in the United States and Mexico, solving problems related all the way from printers to operating system and networks.",
     },
     "español": 
     {
@@ -68,6 +69,7 @@ var data = {
         "experienciaPon":"<strong>PONDERCEL S.A DE C.V</strong><br>Practicante para Desarrollo web, Septiembre 2020 - Febrero 2021<br><br>Como practicanté desarrolle aplicaciones web como full-stack determinando las necesidades del usuario y su departamento aparte de dar apoyo en momentos necesarios para soporte técnico.",
         "practicas":"Practicas que he hecho",
         "cv":"Descargar Curriculum Vitae",
+        "experienciaDZ":"<strong>DataZone</strong><br>Analista Tecnico 1, Abril 2021 - Actualidad<br><br>Ofresco soporte tecnico a tiendas de Autozone en Estados Unidos y Mexico, solucionando problemas relacionados desde impresoras hasta con el sistema operativo y redes.",
     }
 }
 
@@ -90,6 +92,7 @@ function idioma(){
         experienciaPon.innerHTML = data['english'].experienciaPon;
         practicas.textContent = data['english'].practicas;
         cv.textContent = data['english'].cv;
+        experienciaDZ.innerHTML = data['english'].experienciaDZ;
 
     }else{
         contacto.textContent = data['español'].contacto;
@@ -109,6 +112,7 @@ function idioma(){
         experienciaPon.innerHTML = data['español'].experienciaPon;
         practicas.textContent = data['español'].practicas;
         cv.textContent = data['español'].cv;
+        experienciaDZ.innerHTML = data['español'].experienciaDZ;
     }
 }
 
@@ -129,8 +133,12 @@ const experienciaLab = document.querySelector('.experiencia-lab');
 const experienciaPon = document.querySelector('.experiencia-pon');
 const practicas = document.querySelector('.practicas');
 const cv = document.querySelector('.cv');
+const experienciaDZ = document.querySelector('.experiencia-dz');
+
 
 
 function scrollWin() {
   window.scrollBy(0, 6000);
 }
+
+
