@@ -33,7 +33,7 @@ var data = {
     {
       "contacto": "Contact",
       "queHago": "What I do?",
-      "queHago2": "Recently graduated in Computer Systems Engineering focused on web development.",
+      "queHago2": "Recently graduated in Computer Systems Engineering focused on software development.",
       "tituloTema": "Custom Theme",
       "descripcionTema": "*The theme you choose will be saved<br>for your next visit",
       "masSobreMiTitulo": "More about me",
@@ -48,13 +48,14 @@ var data = {
       "experienciaPon":"<strong>PONDERCEL S.A DE C.V</strong><br>Web Development Intern, September 2020 - February 2021<br><br>As an intern, I developed full-stack web applications, determining the needs of the user and his department apart of that i also provided second hand help at necessary times for technical support.",
       "practicas":"Proyects that I have done",
       "cv":"Download Curriculum Vitae",
-      "experienciaDZ":"<strong>DataZone</strong><br>Technical Analyst 1, April 2021 - Present<br><br>I offer technical support to Autozone stores in the United States and Mexico, solving problems related all the way from printers to operating system and networks.",
+      "experienciaDZ":"<strong>DataZone</strong><br>Technical Analyst 1, April 2021 - May 2021<br><br>I offer technical support to Autozone stores in the United States and Mexico, solving problems related all the way from printers to operating system and networks.",
+      "experienciaVJ":"<strong>Independent Game Developer</strong><br>May 2021 - Present<br><br>To continue developing my programming skills, I decided to develop videogames focusing on scripting with C# and C++.",
     },
     "español": 
     {
         "contacto": "Contacto",
         "queHago": "¿Que hago?",
-        "queHago2": "Recien egresado en Ingenieria de sistemas computacionales enfocado al desarrollo web.",
+        "queHago2": "Recien egresado en Ingenieria de sistemas computacionales enfocado al desarrollo de software.",
         "tituloTema": "Tema Personalizado",
         "descripcionTema": "*El tema que elija se quedará guardado<br>para tu siguiente visita",
         "masSobreMiTitulo": "Mas sobre mí...",
@@ -69,7 +70,8 @@ var data = {
         "experienciaPon":"<strong>PONDERCEL S.A DE C.V</strong><br>Practicante para Desarrollo web, Septiembre 2020 - Febrero 2021<br><br>Como practicanté desarrolle aplicaciones web como full-stack determinando las necesidades del usuario y su departamento aparte de dar apoyo en momentos necesarios para soporte técnico.",
         "practicas":"Practicas que he hecho",
         "cv":"Descargar Curriculum Vitae",
-        "experienciaDZ":"<strong>DataZone</strong><br>Analista Tecnico 1, Abril 2021 - Actualidad<br><br>Ofresco soporte tecnico a tiendas de Autozone en Estados Unidos y Mexico, solucionando problemas relacionados desde impresoras hasta con el sistema operativo y redes.",
+        "experienciaDZ":"<strong>DataZone</strong><br>Analista Tecnico 1, Abril 2021 - Mayo 2021<br><br>Ofresco soporte tecnico a tiendas de Autozone en Estados Unidos y Mexico, solucionando problemas relacionados desde impresoras hasta con el sistema operativo y redes.",
+        "experienciaVJ":"<strong>Programador de videojuegos independiente</strong><br>Mayo 2021 - Actualidad<br><br>Para seguir desarrollando mis habilidades en programacion decidi desarrollar videojuegos centrandome en el scripting con C# y C++.",
     }
 }
 
@@ -86,13 +88,12 @@ function idioma(){
         educacionDescripcion.innerHTML = data['english'].educacionDescripcion;
         habilidades.textContent = data['english'].habilidades;
         ingles.textContent = data['english'].ingles;
-        soporte.textContent = data['english'].soporte;
-        redes.textContent = data['english'].redes;
         experienciaLab.textContent = data['english'].experienciaLab;
         experienciaPon.innerHTML = data['english'].experienciaPon;
         practicas.textContent = data['english'].practicas;
         cv.textContent = data['english'].cv;
         experienciaDZ.innerHTML = data['english'].experienciaDZ;
+        experienciaVJ.innerHTML = data['english'].experienciaVJ;
 
     }else{
         contacto.textContent = data['español'].contacto;
@@ -106,13 +107,12 @@ function idioma(){
         educacionDescripcion.innerHTML = data['español'].educacionDescripcion;
         habilidades.textContent = data['español'].habilidades;
         ingles.textContent = data['español'].ingles;
-        soporte.textContent = data['español'].soporte;
-        redes.textContent = data['español'].redes;
         experienciaLab.textContent = data['español'].experienciaLab;
         experienciaPon.innerHTML = data['español'].experienciaPon;
         practicas.textContent = data['español'].practicas;
         cv.textContent = data['español'].cv;
         experienciaDZ.innerHTML = data['español'].experienciaDZ;
+        experienciaVJ.innerHTML = data['español'].experienciaVJ;
     }
 }
 
@@ -134,6 +134,7 @@ const experienciaPon = document.querySelector('.experiencia-pon');
 const practicas = document.querySelector('.practicas');
 const cv = document.querySelector('.cv');
 const experienciaDZ = document.querySelector('.experiencia-dz');
+const experienciaVJ = document.querySelector('.experiencia-vj');
 
 
 
